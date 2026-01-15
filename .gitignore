@@ -1,0 +1,7 @@
+node_modules/
+tabs-data.json
+commands.json
+.claude/
+.DS_Store
+*.log
+native-host/host.js

@@ -1,0 +1,19 @@
+{
+  "name": "browser-tabs-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for organizing browser tabs with Claude",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "browser-tabs-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

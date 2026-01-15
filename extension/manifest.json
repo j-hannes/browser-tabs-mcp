@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Organizer for Claude",
+  "version": "1.0.0",
+  "description": "Export browser tabs to Claude Code for AI-powered organization",
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "nativeMessaging"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Sync Tabs to Claude"
+  },
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
